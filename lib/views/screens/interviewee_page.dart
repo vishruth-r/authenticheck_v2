@@ -87,7 +87,7 @@ class _IntervieweePageState extends State<IntervieweePage> {
   }
 
   Future<void> _launchVideoBiometricUrl() async {
-    final url = 'https://authenticheck-video-upload.onrender.com/?name=${Uri.encodeComponent(_intervieweeId.toString() ?? 'User')}';
+    final url = 'https://authenticheck-video-upload.onrender.com/record/?name=${Uri.encodeComponent(_intervieweeId.toString() ?? 'User')}';
     if (await canLaunch(url)) {
       await launch(url);
     } else {

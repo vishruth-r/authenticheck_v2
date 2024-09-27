@@ -50010,7 +50010,7 @@ return r}catch(q){return a}},
 uz(){var s=0,r=A.S(t.H),q=this,p,o
 var $async$uz=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:p=J.eO(q.y)
-o="https://authenticheck-video-upload.onrender.com/?name="+A.y4(B.p1,p,B.W,!1)
+o="https://authenticheck-video-upload.onrender.com/record/?name="+A.y4(B.p1,p,B.W,!1)
 s=5
 return A.O(A.JS(o),$async$uz)
 case 5:s=b?2:4
